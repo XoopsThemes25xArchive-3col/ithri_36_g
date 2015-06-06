@@ -1,0 +1,320 @@
+
+@import url("content.css");
+@import url("blocks.css");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+html {
+height: 100%;
+font-size: 62.5%;
+}
+
+body {
+margin: 0 auto;
+height: 100%;
+text-align: center;
+font: 1.2em Verdana, Arial, Helvetica, sans-serif;
+background: #242424 url('../img/bg.gif') repeat-x 0 0;
+width: 1000px;
+color:#AFBC25;
+}
+
+}
+#xo-page {
+	padding-top: 1px;   background: transparent;  }
+
+#xo-content {
+  padding : 4px;
+  text-align : justify;
+  color:#F5F5F5;
+   margin : 2px;
+   
+   
+   
+}
+
+.left, .alignleft { float:left; display:inline; }
+#logo { 
+background:url(../img/logo.png);  
+width:256px; 
+height:36px;  
+margin-left:4px;  
+margin-top:50px;
+}
+
+p.banner { 
+color:#fff; 
+font-size:14px; 
+line-height:10px; 
+font-weight: bold; 
+text-transform: uppercase; 
+padding-top:1px; 
+margin-left:4px; 
+}
+
+#header {
+width: 1000px;
+height: 178px;
+position: relative;
+margin: 0 auto;
+text-align: left;
+}
+
+ul#navigation {
+float: right;
+margin: 8px 1px 0 0;
+display: inline;
+color: #FFFFFF;
+}
+
+ul#navigation li {
+float: left;
+display: inline;
+list-style-type: none;
+text-align: center;
+font-size: 1em;
+}
+
+ul#navigation li a, ul#navigation li a:visited {
+text-decoration: none;
+color: #FFFFFF;
+font-weight: normal;
+}
+
+ul#navigation li a:hover {
+text-decoration: underline;
+}
+
+li#house {
+background: url('../img/house.gif') no-repeat 0 1px;
+padding-left: 24px;
+}
+
+li#house a {
+margin-right: 16px;
+}
+
+li#sitemap {
+background: url('../img/sitemap.gif') no-repeat 0 2px;
+padding-left: 24px;
+margin-left: 16px;
+}
+
+li#sitemap a {
+margin-right: 16px;
+}
+
+li#envelope {
+background: url('../img/envelope.gif') no-repeat 0 2px;
+padding-left: 23px;
+margin-left: 16px;
+}
+
+/* Search form */
+
+form.searching {
+width: 204px;
+position: absolute;
+top: 60px;
+right: 1px;
+}
+
+form.searching fieldset {
+border: 0;
+}
+
+#picture-input {
+position: absolute; 
+top: 0;
+left: 0;
+overflow: hidden;
+width: 171px;
+height: 26px;
+background: #FAFFE5 ; border: 1px solid #2E4C00;
+
+}
+
+#picture-input input {
+position: relative;
+top: 5px;
+left: 10px;
+width: 160px;
+border: 0;
+letter-spacing: 1px;
+background-color: #FAFFE5;
+}
+
+form.searching input.hledat {
+letter-spacing: 1px;
+padding-left: 0;
+font-weight: bold;
+color: #FFFFFF;
+position: absolute;
+top: 0;
+right: 0;
+}
+
+form.searching label {
+display: none;
+}
+
+
+/* Menu */
+
+#menu {
+position: absolute;
+top: 141px;
+right: 1px;
+}
+
+#menu li {
+float: left;
+display: inline;
+list-style-type: none;
+}
+
+#menu li a {
+float: left;
+display: inline;
+list-style-type: none;
+text-align: center;
+color: #FFFFFF;
+font-size: 1.3em;
+text-decoration: underline;
+padding: 0 1.1em;
+height: 32px;
+line-height: 32px;
+margin-left: 3px;
+background: #242424 url('../img/li-bg.gif') repeat-x 0 0;
+border: 1px solid black;
+border-bottom: none;
+}
+
+#menu li a:hover {
+color: #FFFFFF;
+text-decoration: none;
+background: #242424;
+border: 1px solid #222222;
+border-bottom: none;
+}
+
+#menu li a.active {
+background: #232323 url('../img/li-bg-hover.gif') repeat-x 0 0;
+color: #FFFFFF;
+text-decoration: none;
+border: 1px solid #2D4A00;
+border-bottom: none;
+}
+
+
+
+
+
+
+
+#mainmenu {	font-size: 1.1em;}
+#mainmenu a {
+  display: block;
+  margin: 0;
+  padding: 10px 4px 10px 16px;
+  /*border-bottom: 1px solid #656B75;*/
+  font-weight:	bold;
+  
+}
+#mainmenu a:hover {}
+
+
+#mainmenu a.menuSub {
+  padding-left: 20px;
+  background: none;
+  font-style: italic;
+   font-size: .9em;
+}
+#mainmenu a.menuSub:hover { }
+
+
+#usermenu {	font-size: 1em; }
+#usermenu a {
+  display: block;
+  margin: 0;
+  padding: 4px 4px 4px 16px;
+ 
+ 
+}
+#usermenu a:hover {}
+
+
+
+
+
+/* Footer */
+
+#footer {
+width: 970px;
+height: 80px;
+margin: 10px auto 0 auto;
+border-top: 1px solid #404040;
+}
+
+p.footerl {
+float: left;
+width: 465px;
+color: #FFFFFF;
+text-align: left;
+margin: 9px 0 0 15px;
+display: inline;
+}
+
+p.footel a, p.footerl a:visited {
+color: #FFFFFF;
+font-weight: normal;
+}
+
+p.footerr {
+float: right;
+width: 465px;
+color: #999999;
+text-align: right;
+margin: 9px 15px 0 0;
+display: inline;
+}
+
+p.footerrt a, p.footerr a:visited {
+color: #999999;
+font-weight: normal;
+}
+
+p.footerr a:hover {
+color: #FFFFFF;
+font-weight: normal;
+}
+
+
+
+
+
+body.mceContentBody {
+    margin:                 0;
+    padding:                0;
+    background-color:       #fff;
+    background-image:       none;
+    color:                  #000;
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
